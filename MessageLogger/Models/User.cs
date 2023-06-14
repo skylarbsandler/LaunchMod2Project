@@ -11,7 +11,7 @@ namespace MessageLogger.Models
         public int Id { get; set; }
         public string Name { get; private set; }
         public string Username { get; private set; }
-        public List<Message> Messages { get; } = new List<Message>();
+        public List<Message> Messages { get; set; } = new List<Message>();
 
         public User(string name, string username)
         {

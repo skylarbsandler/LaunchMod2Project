@@ -15,7 +15,7 @@ namespace MessageLogger.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=password123;Database=MessageLogger")
+            optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=password123;Database=MessageLogger2")
                 .UseSnakeCaseNamingConvention();
         }
     }
